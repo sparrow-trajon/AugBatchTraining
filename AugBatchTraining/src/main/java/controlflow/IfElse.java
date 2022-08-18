@@ -1,6 +1,9 @@
 package controlflow;
 
-public class IfElse {
+public class IfElse {	
+	
+	private String schoolName="DPS"; // default member 
+	
 
 	public static void main(String[] args) {
 
@@ -34,14 +37,17 @@ public class IfElse {
 		 * System.out.println("I am genious"); } while(i<20);
 		 * 
 		 */
-		int i=4;
-		for(System.out.println("First time");false;System.out.println("Ince/Dec section")) {
-			
-			System.out.println("Inside For");
-			i++;
-		}
+		/*
+		 * int i=4; for(System.out.println("First time");false;System.out.
+		 * println("Ince/Dec section")) {
+		 * 
+		 * System.out.println("Inside For"); i++; }
+		 * 
+		 * System.out.println("I am outside for loop");
+		 */
 		
-		System.out.println("I am outside for loop");
+		
+		
 		
 	}
 

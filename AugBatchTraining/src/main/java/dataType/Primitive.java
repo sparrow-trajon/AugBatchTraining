@@ -1,6 +1,8 @@
 package dataType;
 
-public class Primitive {	
+import controlflow.IfElse;
+
+public class Primitive extends IfElse{	
 	
 	
 	public static void main(String[] args ) {
@@ -25,6 +27,11 @@ public class Primitive {
 		String a = new String("manish prajapti");
 		
 		System.out.println(a);
+		
+//		IfElse else1= new IfElse();
+	Primitive p=new Primitive();
+	
+		System.out.println(p.schoolName);
 	}
 
 }
