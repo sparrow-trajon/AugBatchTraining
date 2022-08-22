@@ -63,6 +63,11 @@ public class JavaArrays {
 			System.out.println(i+" place number in array is :-"+a[i]);
 		}	
 		
+		char [] charry= {'8','2','8','7','0','9','1','2','4','4'};
+		System.out.println(charry);
+		
+		byte[] bytesarrary= {10,20,30};
+		
 		
 		
 		
