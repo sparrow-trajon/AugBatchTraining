@@ -2,9 +2,19 @@ package abst;
 
 public class Bank {
 
-	private  String bankeName;
+	public  String bankeName;
 	
 	 private int totoalCapital;
+	 
+	 private int totalCapital;
+	 
+	public int getTotalCapital() {
+		return totalCapital;
+	}
+
+	public void setTotalCapital(int totalCapital) {
+		this.totalCapital = totalCapital;
+	}
 
 	public String getBankeName() {
 		return bankeName;
